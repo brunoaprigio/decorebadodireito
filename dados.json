@@ -1,0 +1,1636 @@
+{
+  "metadata": {
+    "versao": "2.0",
+    "total_materias": 11,
+    "estrategia": "Anti-confusão + Memorização crítica",
+    "foco": "Inversão de resposta, prazos, classificações, conceitos semelhantes"
+  },
+  "categorias": [
+    {
+      "id": "cc_fundamentos",
+      "nome": "[CC] Fundamentos da República",
+      "descricao": "Art. 1º da CF/88",
+      "cor": "#3b82f6",
+      "materia": "Direito Constitucional"
+    },
+    {
+      "id": "cc_objetivos",
+      "nome": "[CC] Objetivos Fundamentais",
+      "descricao": "Art. 3º da CF/88",
+      "cor": "#10b981",
+      "materia": "Direito Constitucional"
+    },
+    {
+      "id": "cc_principios_internacionais",
+      "nome": "[CC] Princípios nas Relações Internacionais",
+      "descricao": "Art. 4º da CF/88",
+      "cor": "#f59e0b",
+      "materia": "Direito Constitucional"
+    },
+    {
+      "id": "cc_clausulas_petreas",
+      "nome": "[CC] Cláusulas Pétreas",
+      "descricao": "Art. 60, §4º da CF/88",
+      "cor": "#ec4899",
+      "materia": "Direito Constitucional"
+    },
+    {
+      "id": "cc_confusoes",
+      "nome": "[CC] Confusões Críticas CC",
+      "descricao": "Fundamento vs Objetivo vs Princípio",
+      "cor": "#06b6d4",
+      "materia": "Direito Constitucional"
+    },
+    {
+      "id": "da_atos_administrativos",
+      "nome": "[DA] Atos Administrativos",
+      "descricao": "Classificações e atributos",
+      "cor": "#059669",
+      "materia": "Direito Administrativo"
+    },
+    {
+      "id": "da_servidores",
+      "nome": "[DA] Servidor Público e Agente",
+      "descricao": "Distinções fundamentais",
+      "cor": "#0891b2",
+      "materia": "Direito Administrativo"
+    },
+    {
+      "id": "da_poderes",
+      "nome": "[DA] Poderes da Administração",
+      "descricao": "Poder de polícia vs Regulamentar",
+      "cor": "#7c3aed",
+      "materia": "Direito Administrativo"
+    },
+    {
+      "id": "da_licitacao",
+      "nome": "[DA] Licitação e Contratos",
+      "descricao": "Modalidades e regras",
+      "cor": "#dc2626",
+      "materia": "Direito Administrativo"
+    },
+    {
+      "id": "da_prazos",
+      "nome": "[DA] Prazos Administrativos",
+      "descricao": "Prescrição vs Decadência",
+      "cor": "#ea580c",
+      "materia": "Direito Administrativo"
+    },
+    {
+      "id": "dt_tributo",
+      "nome": "[DT] Conceito de Tributo",
+      "descricao": "Imposto vs Taxa vs Contribuição",
+      "cor": "#2563eb",
+      "materia": "Direito Tributário"
+    },
+    {
+      "id": "dt_obrigacoes",
+      "nome": "[DT] Obrigações Tributárias",
+      "descricao": "Principal vs Acessória",
+      "cor": "#0d9488",
+      "materia": "Direito Tributário"
+    },
+    {
+      "id": "dt_lancamento",
+      "nome": "[DT] Lançamento Tributário",
+      "descricao": "Modalidades e efeitos",
+      "cor": "#f59e0b",
+      "materia": "Direito Tributário"
+    },
+    {
+      "id": "dt_prazos_tributarios",
+      "nome": "[DT] Prazos Tributários",
+      "descricao": "Prescrição vs Decadência (prazos críticos)",
+      "cor": "#d97706",
+      "materia": "Direito Tributário"
+    },
+    {
+      "id": "dt_isencao_imunidade",
+      "nome": "[DT] Isenção vs Imunidade",
+      "descricao": "Diferenças que invertem resposta",
+      "cor": "#92400e",
+      "materia": "Direito Tributário"
+    },
+    {
+      "id": "df_receita_despesa",
+      "nome": "[DF] Receita e Despesa",
+      "descricao": "Orçamentária vs Extra-orçamentária",
+      "cor": "#1f2937",
+      "materia": "Direito Financeiro"
+    },
+    {
+      "id": "df_execucao",
+      "nome": "[DF] Execução Orçamentária",
+      "descricao": "Empenho, Liquidação, Pagamento",
+      "cor": "#4f46e5",
+      "materia": "Direito Financeiro"
+    },
+    {
+      "id": "df_creditos",
+      "nome": "[DF] Créditos Adicionais",
+      "descricao": "Suplementação, Reforço, Transposição",
+      "cor": "#7c3aed",
+      "materia": "Direito Financeiro"
+    },
+    {
+      "id": "dv_posse_propriedade",
+      "nome": "[DC] Posse vs Propriedade",
+      "descricao": "Conceitos distintos e confundidos",
+      "cor": "#991b1b",
+      "materia": "Direito Civil"
+    },
+    {
+      "id": "dv_prescricao_decadencia",
+      "nome": "[DC] Prescrição vs Decadência",
+      "descricao": "Art. 189 vs Art. 208 (prazos diferentes)",
+      "cor": "#dc2626",
+      "materia": "Direito Civil"
+    },
+    {
+      "id": "dv_capacidade",
+      "nome": "[DC] Capacidade Jurídica",
+      "descricao": "Incapacidade absoluta vs Relativa",
+      "cor": "#f87171",
+      "materia": "Direito Civil"
+    },
+    {
+      "id": "dv_responsabilidade",
+      "nome": "[DC] Responsabilidade Civil",
+      "descricao": "Contratual vs Extracontratual",
+      "cor": "#fca5a5",
+      "materia": "Direito Civil"
+    },
+    {
+      "id": "dv_aquisicao",
+      "nome": "[DC] Modos de Aquisição",
+      "descricao": "Ocupação, Especificação, Confusão",
+      "cor": "#fecaca",
+      "materia": "Direito Civil"
+    },
+    {
+      "id": "de_empresario",
+      "nome": "[DE] Empresário vs Empresa",
+      "descricao": "Conceitos fundamental diferentes",
+      "cor": "#7f1d1d",
+      "materia": "Direito Empresarial"
+    },
+    {
+      "id": "de_sociedades",
+      "nome": "[DE] Classificação de Sociedades",
+      "descricao": "Simples vs Em nome coletivo vs Comandita",
+      "cor": "#991b1b",
+      "materia": "Direito Empresarial"
+    },
+    {
+      "id": "de_responsabilidade_socios",
+      "nome": "[DE] Responsabilidade de Sócios",
+      "descricao": "Ilimitada vs Limitada vs Subsidiária",
+      "cor": "#dc2626",
+      "materia": "Direito Empresarial"
+    },
+    {
+      "id": "de_propriedade_intelectual",
+      "nome": "[DE] Propriedade Intelectual",
+      "descricao": "Marca vs Patente vs Desenho",
+      "cor": "#f87171",
+      "materia": "Direito Empresarial"
+    },
+    {
+      "id": "de_falencia",
+      "nome": "[DE] Insolvência vs Falência",
+      "descricao": "Estados e requisitos distintos",
+      "cor": "#fca5a5",
+      "materia": "Direito Empresarial"
+    },
+    {
+      "id": "dp_competencia",
+      "nome": "[DP] Competência",
+      "descricao": "Absoluta vs Relativa (efeitos diferentes)",
+      "cor": "#1e1b4b",
+      "materia": "Direito Processual Civil"
+    },
+    {
+      "id": "dp_causa_pedido",
+      "nome": "[DP] Causa de Pedir vs Pedido",
+      "descricao": "Distinção crítica de fundamentação",
+      "cor": "#312e81",
+      "materia": "Direito Processual Civil"
+    },
+    {
+      "id": "dp_recursos",
+      "nome": "[DP] Recursos Processuais",
+      "descricao": "Apelação vs Agravo (quando usar cada)",
+      "cor": "#4f46e5",
+      "materia": "Direito Processual Civil"
+    },
+    {
+      "id": "dp_prazos_processuais",
+      "nome": "[DP] Prazos Processuais",
+      "descricao": "Prescrição vs Decadência (contexto processual)",
+      "cor": "#6366f1",
+      "materia": "Direito Processual Civil"
+    },
+    {
+      "id": "dp_litisconsor",
+      "nome": "[DP] Litisconsórcio",
+      "descricao": "Ativo vs Passivo vs Necessário vs Voluntário",
+      "cor": "#818cf8",
+      "materia": "Direito Processual Civil"
+    },
+    {
+      "id": "dbt_relacao_emprego",
+      "nome": "[DBT] Relação de Emprego",
+      "descricao": "Empregado vs Autônomo vs Contratante",
+      "cor": "#7c2d12",
+      "materia": "Direito do Trabalho"
+    },
+    {
+      "id": "dbt_subordinacao",
+      "nome": "[DBT] Subordinação",
+      "descricao": "Jurídica vs Econômica vs Técnica",
+      "cor": "#9a3412",
+      "materia": "Direito do Trabalho"
+    },
+    {
+      "id": "dbt_salario_remuneracao",
+      "nome": "[DBT] Salário vs Remuneração",
+      "descricao": "Diferenças legais significativas",
+      "cor": "#bb7355",
+      "materia": "Direito do Trabalho"
+    },
+    {
+      "id": "dbt_justa_causa",
+      "nome": "[DBT] Justa Causa",
+      "descricao": "Hipóteses e classificação",
+      "cor": "#c85a54",
+      "materia": "Direito do Trabalho"
+    },
+    {
+      "id": "dbt_prazos_trabalho",
+      "nome": "[DBT] Prazos Trabalhistas",
+      "descricao": "Prescrição e direitos (5 anos? 2 anos?)",
+      "cor": "#ea5455",
+      "materia": "Direito do Trabalho"
+    },
+    {
+      "id": "dpt_recursos_trabalho",
+      "nome": "[DPT] Recursos Processuais",
+      "descricao": "Ordinário vs Revista",
+      "cor": "#2d3142",
+      "materia": "Direito Processual do Trabalho"
+    },
+    {
+      "id": "dpt_prazos",
+      "nome": "[DPT] Prazos Processuais do Trabalho",
+      "descricao": "Prescrição, Decadência e Caducidade",
+      "cor": "#3a3f5b",
+      "materia": "Direito Processual do Trabalho"
+    },
+    {
+      "id": "dpt_competencia_trabalho",
+      "nome": "[DPT] Competência Trabalhista",
+      "descricao": "Ratione materia vs Ratione personae",
+      "cor": "#5a6b7d",
+      "materia": "Direito Processual do Trabalho"
+    },
+    {
+      "id": "dpv_segurado",
+      "nome": "[DPV] Segurado vs Contribuinte vs Filiado",
+      "descricao": "Distinções e regimes diferenciados",
+      "cor": "#0f766e",
+      "materia": "Direito Previdenciário"
+    },
+    {
+      "id": "dpv_beneficios",
+      "nome": "[DPV] Classificação de Benefícios",
+      "descricao": "Temporário vs Permanente vs Vitalício",
+      "cor": "#14b8a6",
+      "materia": "Direito Previdenciário"
+    },
+    {
+      "id": "dpv_aposentadoria",
+      "nome": "[DPV] Modalidades de Aposentadoria",
+      "descricao": "Idade vs Tempo vs Invalidez (requisitos)",
+      "cor": "#2dd4bf",
+      "materia": "Direito Previdenciário"
+    },
+    {
+      "id": "dpv_prazos_prev",
+      "nome": "[DPV] Prazos Previdenciários",
+      "descricao": "Carência vs Filiação vs Prescrição",
+      "cor": "#5eead4",
+      "materia": "Direito Previdenciário"
+    },
+    {
+      "id": "dam_licenca_ambiental",
+      "nome": "[DAM] Licença Ambiental",
+      "descricao": "Previa vs Instalação vs Operação",
+      "cor": "#166534",
+      "materia": "Direito Ambiental"
+    },
+    {
+      "id": "dam_impacto_dano",
+      "nome": "[DAM] Impacto vs Dano Ambiental",
+      "descricao": "Avaliação vs Reparação",
+      "cor": "#16a34a",
+      "materia": "Direito Ambiental"
+    },
+    {
+      "id": "dam_responsabilidade",
+      "nome": "[DAM] Responsabilidade Ambiental",
+      "descricao": "Civil vs Penal vs Administrativa (solidariedade)",
+      "cor": "#4ade80",
+      "materia": "Direito Ambiental"
+    },
+    {
+      "id": "dam_principios",
+      "nome": "[DAM] Princípios Ambientais",
+      "descricao": "Poluidor-pagador vs Precaução vs Prevenção",
+      "cor": "#86efac",
+      "materia": "Direito Ambiental"
+    }
+  ],
+  "itens": {
+    "cc_fundamentos": [
+      { "texto": "Soberania", "dica": "Art. 1º, I" },
+      { "texto": "Cidadania", "dica": "Art. 1º, II" },
+      { "texto": "Dignidade da pessoa humana", "dica": "Art. 1º, III" },
+      { "texto": "Valores sociais do trabalho e da livre iniciativa", "dica": "Art. 1º, IV" },
+      { "texto": "Pluralismo político", "dica": "Art. 1º, V" }
+    ],
+    "cc_objetivos": [
+      { "texto": "Construir uma sociedade livre, justa e solidária", "dica": "Art. 3º, I" },
+      { "texto": "Garantir o desenvolvimento nacional", "dica": "Art. 3º, II" },
+      { "texto": "Erradicar a pobreza e a marginalização", "dica": "Art. 3º, III" },
+      { "texto": "Promover o bem de todos, sem preconceitos", "dica": "Art. 3º, IV" }
+    ],
+    "cc_principios_internacionais": [
+      { "texto": "Independência nacional", "dica": "Art. 4º, I" },
+      { "texto": "Prevalência dos direitos humanos", "dica": "Art. 4º, II" },
+      { "texto": "Autodeterminação dos povos", "dica": "Art. 4º, III" },
+      { "texto": "Não-intervenção", "dica": "Art. 4º, IV" },
+      { "texto": "Igualdade entre os Estados", "dica": "Art. 4º, V" },
+      { "texto": "Defesa da paz", "dica": "Art. 4º, VI" },
+      { "texto": "Solução pacífica dos conflitos", "dica": "Art. 4º, VII" },
+      { "texto": "Repúdio ao terrorismo e ao racismo", "dica": "Art. 4º, VIII" }
+    ],
+    "cc_clausulas_petreas": [
+      { "texto": "Forma federativa de Estado", "dica": "Art. 60, §4º, I" },
+      { "texto": "Voto direto, secreto, universal e periódico", "dica": "Art. 60, §4º, II" },
+      { "texto": "Separação dos Poderes", "dica": "Art. 60, §4º, III" },
+      { "texto": "Direitos e garantias individuais", "dica": "Art. 60, §4º, IV" }
+    ],
+    "cc_confusoes": [
+      {
+        "texto": "DIGNIDADE é FUNDAMENTO (Art. 1º), NÃO direito social",
+        "dica": "Confusão 1: muitos colocam em Art. 6º. Está em Art. 1º, III"
+      },
+      {
+        "texto": "DEFESA DA PAZ é PRINCÍPIO INTERNACIONAL (Art. 4º), NÃO fundamento",
+        "dica": "Confusão 2: alunos decoram Defesa e a colocam em Art. 1º"
+      },
+      {
+        "texto": "PRESIDENCIALISMO NÃO é cláusula pétrea; FEDERALISMO é",
+        "dica": "Confusão 3: essencial - forma de GOVERNO pode mudar; forma de ESTADO não"
+      },
+      {
+        "texto": "SOBERANIA (Art. 1º, I) vs INDEPENDÊNCIA NACIONAL (Art. 4º, I)",
+        "dica": "Confusão 4: parecem iguais. Soberania=fundamento; Independência=princípio"
+      },
+      {
+        "texto": "REPÚDIO AO TERRORISMO está em Art. 4º, VIII (Princípio), NÃO em cláusulas pétreas",
+        "dica": "Confusão 5: candidatos invertem e colocam em Art. 60, §4º"
+      }
+    ],
+    "da_atos_administrativos": [
+      {
+        "texto": "ATO ADMINISTRATIVO: emanação válida de vontade",
+        "dica": "Requer: forma, conteúdo, finalidade, motivo, sujeito competente"
+      },
+      {
+        "texto": "ATO VINCULADO: administrador tem ZERO discricionariedade",
+        "dica": "Ex: concessão de aposentadoria quando preenchidos requisitos. Lei determina tudo"
+      },
+      {
+        "texto": "ATO DISCRICIONÁRIO: administrador tem margem de liberdade",
+        "dica": "Ex: permissão (qual candidato escolher). Lei deixa espaço para juízo de oportunidade"
+      },
+      {
+        "texto": "DISCRICIONARIEDADE vs ARBITRARIEDADE",
+        "dica": "Discrição=legal (dentro da lei). Arbitrária=ilegal (fora dos limites)"
+      },
+      {
+        "texto": "ATO ADMINISTRATIVO vs CONTRATO ADMINISTRATIVO",
+        "dica": "Ato: unilateral. Contrato: bilateral. Regras de formação totalmente diferentes"
+      }
+    ],
+    "da_servidores": [
+      {
+        "texto": "SERVIDOR PÚBLICO: pessoa física ligada ao Estado (cargo/função)",
+        "dica": "Regime estatutário. Concurso público. Responsabilidade objetiva do Estado"
+      },
+      {
+        "texto": "AGENTE PÚBLICO: conceito amplo (servidor + autarquias + outros)",
+        "dica": "Gênero. Servidor é espécie. Inclui também ocupantes de função sem cargo"
+      },
+      {
+        "texto": "AUTORIDADE ADMINISTRATIVA: aquele que pode editar atos",
+        "dica": "Subconjunto de agente público. Precisa competência para exercer poder"
+      },
+      {
+        "texto": "RESPONSABILIDADE: Estado responde OBJETIVAMENTE por ilícito de servidor",
+        "dica": "Art. 37, §6º. Não importa culpa. Servidor responde subjetivamente (depois)"
+      },
+      {
+        "texto": "CONCURSO PÚBLICO: obrigatório para cargo efetivo",
+        "dica": "Exceto: casos de nomeação (cargo de confiança). Função executada por servidor"
+      }
+    ],
+    "da_poderes": [
+      {
+        "texto": "PODER DE POLÍCIA: limitação ao exercício de direitos para interesse coletivo",
+        "dica": "Art. 78. Poder coercitivo. Ex: multa de trânsito, destruição de mercadoria"
+      },
+      {
+        "texto": "PODER REGULAMENTAR: editar normas infralegais (decretos)",
+        "dica": "Art. 84, VI. Execução da lei. NÃO cria obrigações novas"
+      },
+      {
+        "texto": "PODER vs DEVER DE POLÍCIA",
+        "dica": "Poder=faculdade. Dever=obrigação (quando há flagrante risco)"
+      },
+      {
+        "texto": "POLÍCIA ADMINISTRATIVA vs POLÍCIA JUDICIÁRIA",
+        "dica": "Administrativa: preventiva (não bloqueia apenas). Judiciária: persegue crime"
+      },
+      {
+        "texto": "DISCRICIONARIEDADE em poder de polícia: autoexecutoriedade + coercibilidade",
+        "dica": "Administrador escolhe QUANDO e COMO (margem), não SE vai exercer"
+      }
+    ],
+    "da_licitacao": [
+      {
+        "texto": "LICITAÇÃO: OBRIGATÓRIA para contratos > limite (art. 23, Lei 14.133)",
+        "dica": "Exceções: dispensa e inexigibilidade (art. 74, Lei 14.133). Memorizar limites"
+      },
+      {
+        "texto": "DISPENSA: licitação desnecessária (valor baixo ou impossível)",
+        "dica": "Art. 74, I-V. Ex: valor pequeno, urgência, interesse público"
+      },
+      {
+        "texto": "INEXIGIBILIDADE: impossível fazer licitação (exclusividade)",
+        "dica": "Art. 75. Ex: contratar reparo de equipamento de marca única"
+      },
+      {
+        "texto": "CONVITE: modalidade de licitação para contratos pequenos",
+        "dica": "Menor custoprocessual. Convida no mínimo 3 fornecedores"
+      },
+      {
+        "texto": "TOMADA DE PREÇOS: modalidade de licitação de médio valor",
+        "dica": "Média entre convite e concorrência. Publicação em jornal"
+      },
+      {
+        "texto": "CONCORRÊNCIA: modalidade de licitação (maior valor/maior publicidade)",
+        "dica": "Qualquer pessoa entra. Publicação em DOU. Maior formalismo"
+      }
+    ],
+    "da_prazos": [
+      {
+        "texto": "PRESCRIÇÃO: direito de ação prescreve (ação contra o Estado)",
+        "dica": "5 anos para cobrar. Interrompe com demanda. Art. 1º, Lei de Prescrição"
+      },
+      {
+        "texto": "DECADÊNCIA: perda de direito material (não direito de ação)",
+        "dica": "Ex: recurso administrativo em 30 dias (perde direito de recorrer, não pode processar)"
+      },
+      {
+        "texto": "PRESCRIÇÃO vs DECADÊNCIA: qual prescreve direito de ação?",
+        "dica": "Prescrição. Decadência extingue o direito material (não é ação que prescreve)"
+      },
+      {
+        "texto": "PRAZO PARA AÇÃO CONTRA ESTADO: 5 anos (prescrição)",
+        "dica": "Lei 12.016/2009. Mandado de segurança: 120 dias. Mas direito de agir prescreve em 5 anos"
+      }
+    ],
+    "dt_tributo": [
+      {
+        "texto": "TRIBUTO: prestação pecuniária compulsória, em moeda/valores, instituída por lei",
+        "dica": "Gênero. Espécies: imposto, taxa, contribuição"
+      },
+      {
+        "texto": "IMPOSTO: tributo sem contraprestação específica",
+        "dica": "Ex: IR, ICMS, IPVA. Confundem com taxa (que tem contraprestação)"
+      },
+      {
+        "texto": "TAXA: tributo com contraprestação específica (serviço ou poder de polícia)",
+        "dica": "Ex: taxa de registro, taxa de iluminação. VINCULADA ao exercício estatal"
+      },
+      {
+        "texto": "CONTRIBUIÇÃO: tributo para custear atividade específica",
+        "dica": "Ex: contribuição sindical, CREA. Terceira espécie (não é imposto nem taxa)"
+      },
+      {
+        "texto": "IMPOSTO vs TAXA: diferença crítica",
+        "dica": "Imposto: sem contraprestação (renda, patrimônio). Taxa: com contraprestação (serviço)"
+      }
+    ],
+    "dt_obrigacoes": [
+      {
+        "texto": "OBRIGAÇÃO TRIBUTÁRIA PRINCIPAL: dever de pagar tributo",
+        "dica": "Correlato da relação jurídica tributária. Gera direito de crédito ao fisco"
+      },
+      {
+        "texto": "OBRIGAÇÃO TRIBUTÁRIA ACESSÓRIA: dever de prestar informação/documentação",
+        "dica": "Ex: declarar renda, emitir nota fiscal. Não gera crédito, gera multa por atraso"
+      },
+      {
+        "texto": "CRÉDITO TRIBUTÁRIO: débito do contribuinte (obrigação quantificada)",
+        "dica": "Constitui-se pelo lançamento. Exigível de imediato"
+      },
+      {
+        "texto": "SUJEITO ATIVO: Fazenda Pública (União, Estados, Municípios)",
+        "dica": "Quem exige o tributo. Pode transferir cobrança (ex: via procurador)"
+      },
+      {
+        "texto": "SUJEITO PASSIVO: contribuinte ou responsável",
+        "dica": "Contribuinte: incide fato gerador. Responsável: dever legal (substituto)"
+      }
+    ],
+    "dt_lancamento": [
+      {
+        "texto": "LANÇAMENTO: ato administrativo de constituição do crédito tributário",
+        "dica": "Procedimento formal. Antes disso, crédito não existe"
+      },
+      {
+        "texto": "LANÇAMENTO DE OFÍCIO: fisco faz (maioria dos impostos)",
+        "dica": "Ex: lançamento de IPVA. Fisco identifica fato gerador e calcula"
+      },
+      {
+        "texto": "LANÇAMENTO POR HOMOLOGAÇÃO: contribuinte declara, fisco homologa",
+        "dica": "Ex: IR. Contribuinte declara rendimento, Receita valida depois"
+      },
+      {
+        "texto": "LANÇAMENTO POR DECLARAÇÃO: contribuinte informa, fisco oficializa",
+        "dica": "Intermediário: contribuinte tem papel maior que ofício, menor que homologação"
+      },
+      {
+        "texto": "AUTOLANÇAMENTO: o próprio contribuinte lança (casos especiais)",
+        "dica": "Raro. Exemplo: algumas contribuições especiais"
+      }
+    ],
+    "dt_prazos_tributarios": [
+      {
+        "texto": "PRESCRIÇÃO TRIBUTÁRIA: 5 anos para cobrar crédito",
+        "dica": "Do lançamento. Interrompe com qualquer ato de cobrança (protesto, ação judicial)"
+      },
+      {
+        "texto": "DECADÊNCIA TRIBUTÁRIA: 10 anos para lançar imposto (direito de lançar prescreve)",
+        "dica": "Se não lançou em 10 anos, perdeu direito de lançar. NÃO pode cobrar mais"
+      },
+      {
+        "texto": "PRESCRIÇÃO vs DECADÊNCIA EM TRIBUTO: qual é qual?",
+        "dica": "Decadência: prazo para LANÇAR (5 ou 10 anos conforme imposto). Prescrição: prazo para COBRAR"
+      },
+      {
+        "texto": "IR: decadência de 5 anos (não 10) para lançar",
+        "dica": "Lei 9.250/1995 reduz. Memorizar: IR = 5 anos, geral = 10 anos"
+      },
+      {
+        "texto": "REVISÃO POSTERIOR AO LANÇAMENTO: se declaração posterior",
+        "dica": "Homologação reduz prazo: 2 anos se contribuinte já pagou algum valor"
+      }
+    ],
+    "dt_isencao_imunidade": [
+      {
+        "texto": "ISENÇÃO: norma legal que DISPENSA pagamento de tributo",
+        "dica": "Diminui a incidência. Ex: isenção de IR para aposentado. Pode ser revogada por lei"
+      },
+      {
+        "texto": "IMUNIDADE: proteção constitucional contra INSTITUIÇÃO de tributo",
+        "dica": "Lei não pode instituir. Ex: imunidade de templos (Art. 150, VI, b)"
+      },
+      {
+        "texto": "ISENÇÃO vs IMUNIDADE: qual pode ser revogada?",
+        "dica": "Isenção: sim (lei ordinária). Imunidade: não (seria EC, praticamente impossível)"
+      },
+      {
+        "texto": "IMUNIDADE RECÍPROCA: União, Estados e Municípios são imunes entre si",
+        "dica": "Art. 150, VI, a. Um não tributa o outro"
+      },
+      {
+        "texto": "IMUNIDADE DE LIVROS, JORNAIS E PERIÓDICOS: não pagam ICMS/II",
+        "dica": "Art. 150, VI, d. Constitucional, não pode ser revogada"
+      }
+    ],
+    "df_receita_despesa": [
+      {
+        "texto": "RECEITA ORÇAMENTÁRIA: ingressos previstos no orçamento",
+        "dica": "Receitas tributárias + não-tributárias. Processadas no exercício"
+      },
+      {
+        "texto": "RECEITA EXTRA-ORÇAMENTÁRIA: ingressos fora do orçamento",
+        "dica": "Ex: depósitos em caução, consignações. Transitória"
+      },
+      {
+        "texto": "DESPESA ORÇAMENTÁRIA: saídas previstas no orçamento",
+        "dica": "Gasto com função estatal. Processado no exercício"
+      },
+      {
+        "texto": "DESPESA EXTRA-ORÇAMENTÁRIA: saídas fora do orçamento",
+        "dica": "Ex: devolução de caução. Também transitória"
+      },
+      {
+        "texto": "RECEITA vs DESPESA: nomenclatura orçamentária",
+        "dica": "Receita = entrada. Despesa = saída. Ambas podem ser orçamentárias ou extra"
+      }
+    ],
+    "df_execucao": [
+      {
+        "texto": "EMPENHO: ato administrativo que compromete crédito orçamentário",
+        "dica": "1ª fase. Reduz dotação disponível. Irretratável (exceto em casos específicos)"
+      },
+      {
+        "texto": "LIQUIDAÇÃO: verificação de que serviço foi realizado/mercadoria entregue",
+        "dica": "2ª fase. Confirma quantidade e qualidade. Antes não se paga"
+      },
+      {
+        "texto": "PAGAMENTO: transferência de recursos ao credor",
+        "dica": "3ª fase. Último estágio. Só após liquidação"
+      },
+      {
+        "texto": "ORDEM DE SEQUÊNCIA: Empenho → Liquidação → Pagamento",
+        "dica": "Sempre nessa ordem. Se pular fase, é irregularidade"
+      },
+      {
+        "texto": "EMPENHO vs CONTATO: confusão comum",
+        "dica": "Empenho: ato interno (compromete orçamento). Contrato: acordo bilateral"
+      }
+    ],
+    "df_creditos": [
+      {
+        "texto": "CRÉDITO ORDINÁRIO: originário (no orçamento inicial)",
+        "dica": "Aprovado na Lei de Orçamento Anual. Pode ser reforçado"
+      },
+      {
+        "texto": "CRÉDITO EXTRAORDINÁRIO: para despesa imprevisível/urgente",
+        "dica": "Art. 167, §3º CF. Via decreto. Precisa lei anterior autorizando"
+      },
+      {
+        "texto": "CRÉDITO ADICIONAL: gênero (suplementação, reforço, abertura)",
+        "dica": "Mecanismo de ajuste orçamentário durante ano fiscal"
+      },
+      {
+        "texto": "SUPLEMENTAÇÃO: reforço a crédito já existente",
+        "dica": "Aumenta dotação de rubrica já prevista. Comum"
+      },
+      {
+        "texto": "TRANSPOSIÇÃO: movimento de crédito entre rubricas",
+        "dica": "Transfere verba de um programa para outro. Requer autorização"
+      }
+    ],
+    "dv_posse_propriedade": [
+      {
+        "texto": "POSSE: poder de fato sobre coisa (estado de consumidor)",
+        "dica": "Não precisa ser dono. Ex: aluguel, comodato. Pode sofrer turbação"
+      },
+      {
+        "texto": "PROPRIEDADE: direito real (disposição jurídica, pode alienar)",
+        "dica": "Dono pode vender, alugar, destruir (bens não essenciais)"
+      },
+      {
+        "texto": "POSSE vs PROPRIEDADE: qual é direito real?",
+        "dica": "Ambas são. Mas posse é fática (estado), propriedade é jurídica (direito)"
+      },
+      {
+        "texto": "POSSE JUSTA: permite usucapião (requisito essencial)",
+        "dica": "Não pode ter vício. Pacífica, ininterrupta, sem oposição"
+      },
+      {
+        "texto": "POSSE INJUSTA: não permite usucapião",
+        "dica": "Tem vício (violência, clandestinidade, precariedade). Perde direito"
+      }
+    ],
+    "dv_prescricao_decadencia": [
+      {
+        "texto": "PRESCRIÇÃO (Art. 189): direito de ação prescreve (perde direito de processar)",
+        "dica": "Direito material permanece, só não pode exercitar em juízo. Prazo: 10 anos (ordinária)"
+      },
+      {
+        "texto": "DECADÊNCIA (Art. 208): direito material desaparece (não é ação)",
+        "dica": "Ex: nulidade relativa deve ser alegada em prazo (decadência). Perdido o prazo, perde direito"
+      },
+      {
+        "texto": "PRESCRIÇÃO vs DECADÊNCIA: qual extingue direito material?",
+        "dica": "Decadência. Prescrição extingue ação (direito permanece, mas não vale em juízo)"
+      },
+      {
+        "texto": "PRESCRIÇÃO ORDINÁRIA: 10 anos (Art. 205)",
+        "dica": "Regra geral. Salvo lei que estabeleça outro prazo"
+      },
+      {
+        "texto": "PRESCRIÇÃO EXTRAORDINÁRIA: 20 anos (Art. 205, parágrafo único)",
+        "dica": "Nunca. Prazo máximo além do qual direito extingue-se completamente"
+      }
+    ],
+    "dv_capacidade": [
+      {
+        "texto": "CAPACIDADE DE GOZO: aptidão para ser titular de direitos",
+        "dica": "Adquire-se ao nascer (com vida). Ninguém é destituído"
+      },
+      {
+        "texto": "CAPACIDADE DE EXERCÍCIO: aptidão para exercitar direitos pessoalmente",
+        "dica": "Completa aos 18 anos. Pode ser restringida (menores, incapazes)"
+      },
+      {
+        "texto": "INCAPACIDADE ABSOLUTA: não pode exercitar direito (nem por representante pode em alguns)",
+        "dica": "Ex: criança (até 4 anos aprox), louco furioso. Precisa curador"
+      },
+      {
+        "texto": "INCAPACIDADE RELATIVA: pode exercitar se representado/assistido",
+        "dica": "Ex: menor de 18 (representado pai), maior sob curatela. Assiste procurador"
+      },
+      {
+        "texto": "MAIOR COM RESTRIÇÃO: maior que 18 mas com incapacidade relativa",
+        "dica": "Ex: curador por razão de saúde mental, pródigo. Pode com assistência"
+      }
+    ],
+    "dv_responsabilidade": [
+      {
+        "texto": "RESPONSABILIDADE CONTRATUAL: descumprimento de obrigação (contrato)",
+        "dica": "Presume culpa do devedor. Devedor explica porque não cumpriu"
+      },
+      {
+        "texto": "RESPONSABILIDADE EXTRACONTRATUAL: reparação por ilícito/dano sem contrato",
+        "dica": "Terceira pessoa causa dano. Precisa provar negligência/dolo/imprudência"
+      },
+      {
+        "texto": "CULPA em responsabilidade: negligência, imprudência, imperícia",
+        "dica": "Contratual: presume. Extracontratual: prova de culpa"
+      },
+      {
+        "texto": "DOLO: intenção de causar dano",
+        "dica": "Mais grave que culpa. Responsabilidade integral (não há limit)"
+      },
+      {
+        "texto": "CASO FORTUITO/FORÇA MAIOR: exclui responsabilidade (teoria do risco)",
+        "dica": "Evento imprevisível e inevitável. Libera de indenizar"
+      }
+    ],
+    "dv_aquisicao": [
+      {
+        "texto": "OCUPAÇÃO: apropriar-se de coisa sem dono",
+        "dica": "Ex: caça em terra não-demarcada. Exclusivo de res nullius"
+      },
+      {
+        "texto": "ESPECIFICAÇÃO: criar coisa nova a partir de matéria-prima alheia",
+        "dica": "Ex: carpinteiro faz móvel com madeira de outro. Quem é dono do móvel novo?"
+      },
+      {
+        "texto": "CONFUSÃO: mistura de bens de proprietários diferentes",
+        "dica": "Ex: misturar trigo de A com trigo de B. Ambos donos proporcionalmente"
+      },
+      {
+        "texto": "MISTURA: confusão de líquidos/pós que não se separam",
+        "dica": "Efeito semelhante à confusão. Copropriedade proporcional"
+      },
+      {
+        "texto": "USUCAPIÃO: aquisição de propriedade por posse mansa e pacífica",
+        "dica": "Requer: posse justa, ininterrupta, mansa (sem oposição). Prazo: 10 ou 20 anos"
+      }
+    ],
+    "de_empresario": [
+      {
+        "texto": "EMPRESÁRIO: pessoa física que exerce atividade econômica de forma profissional",
+        "dica": "Precisa estar registrado. Responsabilidade ilimitada por dívidas"
+      },
+      {
+        "texto": "EMPRESA: não é pessoa jurídica (não é sujeito de direito)",
+        "dica": "É atividade econômica. Confusão comum: empresa não é entidade"
+      },
+      {
+        "texto": "ESTABELECIMENTO: bem corpóreo/incorpóreo organizado para exercer empresa",
+        "dica": "Pode transferir-se. Nome comercial, clientela, pontos"
+      },
+      {
+        "texto": "MICROEMPRESA vs PEQUENA EMPRESA: classificação por faturamento",
+        "dica": "Lei Complementar 123/2006. Diferentes regimes tributários (Simples Nacional)"
+      },
+      {
+        "texto": "EMPRESÁRIO vs SOCIEDADE EMPRESÁRIA",
+        "dica": "Empresário: pessoa física. Sociedade: pessoa jurídica (mesmo objeto social)"
+      }
+    ],
+    "de_sociedades": [
+      {
+        "texto": "SOCIEDADE SIMPLES: não-comerciantes (profissões intelectuais)",
+        "dica": "Ex: advogados, médicos. Responsabilidade ilimitada e solidária"
+      },
+      {
+        "texto": "SOCIEDADE EM NOME COLETIVO: comerciantes com responsabilidade ilimitada",
+        "dica": "Todos sócios aparecem no nome. Todos respondem de forma solidária"
+      },
+      {
+        "texto": "SOCIEDADE EM COMANDITA: tem sócio comanditado (ilimitada) e comanditário (limitada)",
+        "dica": "Misto: alguns respondem ilimitadamente, outros limitadamente"
+      },
+      {
+        "texto": "SOCIEDADE LIMITADA: responsabilidade limitada ao capital social",
+        "dica": "Cada sócio responde até sua cota. Muito comum em Brasil"
+      },
+      {
+        "texto": "SOCIEDADE ANÔNIMA: acionistas não respondem (limitada ao valor das ações)",
+        "dica": "Capital em ações. Maior flexibilidade. Pode ter ações ordinárias e preferenciais"
+      }
+    ],
+    "de_responsabilidade_socios": [
+      {
+        "texto": "RESPONSABILIDADE ILIMITADA: sócio responde com patrimônio pessoal",
+        "dica": "Sociedade Simples, Nome Coletivo. Credor pode cobrar de bens do sócio"
+      },
+      {
+        "texto": "RESPONSABILIDADE LIMITADA: sócio responde só até sua cota",
+        "dica": "Limitada, Anônima. Credor não toca patrimônio pessoal"
+      },
+      {
+        "texto": "RESPONSABILIDADE SUBSIDIÁRIA: sócio responde se esgotados bens da sociedade",
+        "dica": "Ordem: primeiro se cobram bens da empresa; depois bens do sócio"
+      },
+      {
+        "texto": "SÓCIO COMANDITÁRIO: responsabilidade limitada (Comandita)",
+        "dica": "Não participa da gestão. Responde até sua cota. Ação preferencial"
+      },
+      {
+        "texto": "SÓCIO COMANDITADO: responsabilidade ilimitada (Comandita)",
+        "dica": "Participa da gestão. Responde ilimitadamente"
+      }
+    ],
+    "de_propriedade_intelectual": [
+      {
+        "texto": "MARCA: sinal distintivo de produtos/serviços (identifica origem)",
+        "dica": "Direito exclusivo de uso. Prazo: 10 anos (renovável indefinidamente)"
+      },
+      {
+        "texto": "PATENTE: proteção de invenção (processo novo, durável no tempo)",
+        "dica": "Confere direito exclusivo de exploração. Prazo: 20 anos (não renovável)"
+      },
+      {
+        "texto": "DESENHO INDUSTRIAL: forma/aparência estética de produto útil",
+        "dica": "Híbrido entre marca e patente. Prazo: 15 anos"
+      },
+      {
+        "texto": "DIREITO AUTORAL: proteção de obra intelectual (livro, música, software)",
+        "dica": "Vida do autor + 70 anos após. Não requer registro"
+      },
+      {
+        "texto": "MARCA vs PATENTE: diferença crítica",
+        "dica": "Marca: identifica (renovável). Patente: invenção (não-renovável)"
+      }
+    ],
+    "de_falencia": [
+      {
+        "texto": "INSOLVÊNCIA: estado de incapacidade de pagar dívidas",
+        "dica": "Situação fática/econômica. Pode ter ativos (bloqueados) ou sem ativos"
+      },
+      {
+        "texto": "FALÊNCIA: procedimento legal de reorganização/liquidação",
+        "dica": "Anterior 'falência do devedor'. Agora: Insolvência vs Recuperação"
+      },
+      {
+        "texto": "RECUPERAÇÃO JUDICIAL: devedor quer continuar (reorganiza dívidas)",
+        "dica": "Plano de recuperação em até 2 anos. Não perde empresa"
+      },
+      {
+        "texto": "LIQUIDAÇÃO: encerramento (encerra atividades, vende bens, paga créditos)",
+        "dica": "Devedor desiste. Bens vendidos. Credores recebem proporcional"
+      },
+      {
+        "texto": "CREDOR QUIROGRAFÁRIO: não tem garantia específica",
+        "dica": "Recebe após credores privilegiados. Último na fila"
+      }
+    ],
+    "dp_competencia": [
+      {
+        "texto": "COMPETÊNCIA ABSOLUTA: não pode ser alterada ou prorrogada",
+        "dica": "Ex: Justiça Federal por lei. Juiz incompetente pode suscitar ex ofício"
+      },
+      {
+        "texto": "COMPETÊNCIA RELATIVA: pode ser alterada por prorrogação (vontade das partes)",
+        "dica": "Ex: foro de domicílio do réu. Réu comparecendo, consente foro"
+      },
+      {
+        "texto": "INCOMPETÊNCIA ABSOLUTA: nulidade insanável (sem prazo prescricional)",
+        "dica": "Pode ser alegada a qualquer momento. Juiz pode reconhecer ex ofício"
+      },
+      {
+        "texto": "INCOMPETÊNCIA RELATIVA: suscitada em contestação ou exceção",
+        "dica": "Se não alegar, preclui. Perda do direito de impugnar"
+      },
+      {
+        "texto": "PRORROGAÇÃO: extensão de competência (consentimento do réu)",
+        "dica": "Apenas para competência relativa. Réu que comparece consente"
+      }
+    ],
+    "dp_causa_pedido": [
+      {
+        "texto": "CAUSA DE PEDIR: fundamentação jurídica da ação (por que tem direito)",
+        "dica": "Fatos e direitos. Art. 319, CPC: descrição do fato que fundamenta demanda"
+      },
+      {
+        "texto": "PEDIDO: o que pede (condenação, declaração, constituição)",
+        "dica": "Conclusão. Art. 322: esclarecer bem o objeto da demanda"
+      },
+      {
+        "texto": "MUDANÇA DE CAUSA DE PEDIR: admitida (reformulação do fundamento)",
+        "dica": "Pode mudar razão legal. Ex: cobrar por enriquecimento em vez de contrato"
+      },
+      {
+        "texto": "MUDANÇA DE PEDIDO: geralmente não admitida (seria novo processo)",
+        "dica": "Pedido deve ser fixo. Mudar = nova ação"
+      },
+      {
+        "texto": "ACUMULAÇÃO DE PEDIDOS: cumulação própria vs alternativa",
+        "dica": "Própria: todos (Ex A e B). Alternativa: um OU outro"
+      }
+    ],
+    "dp_recursos": [
+      {
+        "texto": "APELAÇÃO: recurso contra sentença (encerra 1ª instância)",
+        "dica": "Novo julgamento. Tribunal analisa fato e direito (não só direito como agravo)"
+      },
+      {
+        "texto": "AGRAVO: recurso contra decisão interlocutória (durante processo)",
+        "dica": "Não encerra 1ª instância. Tribunal analisa só direito (não fato)"
+      },
+      {
+        "texto": "AGRAVO DE INSTRUMENTO: imediato (sem esperar sentença)",
+        "dica": "Quando decisão causa prejuízo gravoso. Art. 1.015, CPC"
+      },
+      {
+        "texto": "AGRAVO INTERNO/REGIMENTAL: contra decisão de relator ou turma",
+        "dica": "Para revisar dentro do tribunal (antes de ir a STF/STJ)"
+      },
+      {
+        "texto": "RECURSO EXTRAORDINÁRIO: STF (violação Constituição)",
+        "dica": "Última instância. Questão constitucional. Repercussão geral obrigatória"
+      }
+    ],
+    "dp_prazos_processuais": [
+      {
+        "texto": "CONTESTAÇÃO: prazo para réu responder (15 dias após citação)",
+        "dica": "Art. 335, CPC. Perda = revelia (aceita fatos)"
+      },
+      {
+        "texto": "TRÉPLICA: resposta do autor à contestação (15 dias)",
+        "dica": "Opcional. Só se desejar esclarecer"
+      },
+      {
+        "texto": "APELAÇÃO: prazo 15 dias após sentença",
+        "dica": "Bilateral (ambas partes podem apelar). Contado da intimação"
+      },
+      {
+        "texto": "AGRAVO DE INSTRUMENTO: prazo 15 dias",
+        "dica": "Da decisão interlocutória (não intimação)"
+      },
+      {
+        "texto": "PRESCRIÇÃO em processo civil: 10 anos (geral)",
+        "dica": "Salvo lei específica. Alguns direitos prescritos em 5 anos"
+      }
+    ],
+    "dp_litisconsor": [
+      {
+        "texto": "LITISCONSÓRCIO ATIVO: múltiplos autores (cobram juntos)",
+        "dica": "Ex: herdeiros cobram débito do falecido"
+      },
+      {
+        "texto": "LITISCONSÓRCIO PASSIVO: múltiplos réus (cobram contra vários)",
+        "dica": "Ex: processo contra co-autores de crime"
+      },
+      {
+        "texto": "LITISCONSÓRCIO NECESSÁRIO: exigido por lei (todos devem participar)",
+        "dica": "Ex: ação sobre bem indivisível (marido + mulher). Sem um = nulidade"
+      },
+      {
+        "texto": "LITISCONSÓRCIO VOLUNTÁRIO: autorizado por lei (partes escolhem)",
+        "dica": "Ex: diversos credores cobram mesmo devedor (aproveitam custos)"
+      },
+      {
+        "texto": "EFEITO DO LITISCONSÓRCIO NECESSÁRIO: vício processual (nulidade)",
+        "dica": "Se faltar co-litisconsorte obrigatório = processo nulo"
+      }
+    ],
+    "dbt_relacao_emprego": [
+      {
+        "texto": "EMPREGADO: pessoa que trabalha sob subordinação jurídica (contrato indefinido)",
+        "dica": "Art. 3º CLT: prestação de serviço pessoal, não-eventual, subordinado, remunerado"
+      },
+      {
+        "texto": "TRABALHADOR AUTÔNOMO: não-subordinado, define próprio método/horário",
+        "dica": "Pode recusar trabalho. Não é empregado. Sem vínculos benefícios"
+      },
+      {
+        "texto": "CONTRATANTE: quem contrata autônomo (não é empregador)",
+        "dica": "Responsabilidade diferente. Não deve contribuição FGTS/INSS"
+      },
+      {
+        "texto": "RELAÇÃO DE EMPREGO: vínculo jurídico (empregador-empregado)",
+        "dica": "Elementos: pessoalidade, subordinação, continuidade, remuneração"
+      },
+      {
+        "texto": "RELAÇÃO DE TRABALHO: conceito amplo (inclui autônomo, parceiro)",
+        "dica": "Gênero. Relação de emprego = espécie"
+      }
+    ],
+    "dbt_subordinacao": [
+      {
+        "texto": "SUBORDINAÇÃO JURÍDICA: empregador dá ordens (vinculado a obedecer)",
+        "dica": "Elemento decisivo para caracterizar emprego. Obediência a instruções"
+      },
+      {
+        "texto": "SUBORDINAÇÃO ECONÔMICA: empregado depende financeiramente (risco do outro)",
+        "dica": "Empregado não assume risco. Recebe salário fixo"
+      },
+      {
+        "texto": "SUBORDINAÇÃO TÉCNICA: empregador pode indicar meios/forma",
+        "dica": "Consequência da jurídica. Não é elemento autônomo"
+      },
+      {
+        "texto": "AUSÊNCIA DE SUBORDINAÇÃO = TRABALHO AUTÔNOMO",
+        "dica": "Autônomo escolhe método, horário, pode recusar, assume risco"
+      },
+      {
+        "texto": "SUBORDINAÇÃO vs CONTROLE REMOTO: ambos caracterizam emprego",
+        "dica": "Teletrabalho não exclui subordinação. Home office pode ser trabalho subordinado"
+      }
+    ],
+    "dbt_salario_remuneracao": [
+      {
+        "texto": "SALÁRIO: contraprestação do trabalho (retribuição habitual)",
+        "dica": "Inclui: base, gratificações, prêmios. Direito fundamental"
+      },
+      {
+        "texto": "REMUNERAÇÃO: gênero (salário + direitos acessórios)",
+        "dica": "Salário + horas extras + adicionais (noturno, insalubridade)"
+      },
+      {
+        "texto": "SALÁRIO vs REMUNERAÇÃO: qual é conceito maior?",
+        "dica": "Remuneração. Salário é parte dela"
+      },
+      {
+        "texto": "GORJETA: não-obrigatória (cliente dá ao atendente)",
+        "dica": "NÃO integra remuneração (Lei 12.457/2011). Patrão não pode descontar"
+      },
+      {
+        "texto": "GRATIFICAÇÃO: valor extraordinário (bônus, comissão)",
+        "dica": "Integra remuneração se habitual (Art. 457, CLT)"
+      }
+    ],
+    "dbt_justa_causa": [
+      {
+        "texto": "JUSTA CAUSA: motivo grave para dispensa sem aviso prévio",
+        "dica": "Art. 482 CLT. Exemplos: insubordinação, embriaguez, agressão"
+      },
+      {
+        "texto": "INSUBORDINAÇÃO: desobediência a ordem lícita (grave, séria)",
+        "dica": "Ordem precisa ser lícita. Desobediência simples = justa causa"
+      },
+      {
+        "texto": "ABANDONO DE EMPREGO: faltas não justificadas (30+ dias)",
+        "dica": "Padrão: mais de 30 dias sem aparecer = abandono presumido"
+      },
+      {
+        "texto": "EMBRIAGUEZ HABITUAL OU EM SERVIÇO: justa causa",
+        "dica": "Embriaguez casual não é. Tem que ser habitual OU durante trabalho"
+      },
+      {
+        "texto": "IMPROBIDADE: ato desonesto (furto, fraude)",
+        "dica": "Causa grave. Pode ser investigada antes de dispensa"
+      }
+    ],
+    "dbt_prazos_trabalho": [
+      {
+        "texto": "PRESCRIÇÃO EM DIREITO TRABALHISTA: 5 anos (regra, Art. 11 CLT)",
+        "dica": "Direito de cobrar em juízo até 5 anos (desde que dentro de 2 anos do término)"
+      },
+      {
+        "texto": "DECADÊNCIA: 2 anos para propor reclamação (após término contrato)",
+        "dica": "Art. 11, CLT. Contado da cessação (extinção do contrato)"
+      },
+      {
+        "texto": "PRAZO PARA 13º SALÁRIO: reclamável até 5 anos",
+        "dica": "Mas dentro de 2 anos do término contrato. Após 2 anos: prescrição"
+      },
+      {
+        "texto": "FÉRIAS: prazo de 12 meses (período aquisitivo)",
+        "dica": "Acumula por ano trabalhado. Máximo 3 períodos (caducidade)"
+      },
+      {
+        "texto": "AVISO PRÉVIO: 30 dias para dispensa sem justa causa",
+        "dica": "CLT, Art. 487. Remunerado ou dispensa imediata com pagamento"
+      }
+    ],
+    "dpt_recursos_trabalho": [
+      {
+        "texto": "RECURSO ORDINÁRIO: contra sentença (para TRT)",
+        "dica": "Prazo: 8 dias. 1ª instância → 2ª instância (TRT)"
+      },
+      {
+        "texto": "RECURSO DE REVISTA: contra acórdão do TRT (para TST)",
+        "dica": "Prazo: 15 dias. Admissão mais rigorosa (violação OJ/Súmula)"
+      },
+      {
+        "texto": "AGRAVO (DT): contra decisão interlocutória ou de admissibilidade",
+        "dica": "Durante processo. Direto ao tribunal (CPC aplicável subsidiariamente)"
+      },
+      {
+        "texto": "RECURSO EXTRAORDINÁRIO: violação Constituição (STF)",
+        "dica": "Raramente admitido em DT. Questão trabalhista (não constitucional)"
+      },
+      {
+        "texto": "PRESCRIÇÃO em Direito Processual do Trabalho: 5 anos",
+        "dica": "Mesmo prazo do direito material trabalhista"
+      }
+    ],
+    "dpt_prazos": [
+      {
+        "texto": "PRESCRIÇÃO: direito de ação prescreve em 5 anos",
+        "dica": "Contado do término contrato. Após 2 anos da extinção = caducidade"
+      },
+      {
+        "texto": "DECADÊNCIA: perda do direito material (2 anos da extinção)",
+        "dica": "Prazo final para reclamar qualquer direito trabalhista"
+      },
+      {
+        "texto": "CADUCIDADE: direito caduca se não exercido (prescrição + 1 ano)",
+        "dica": "3 anos após extinção = perde-se direito completamente"
+      },
+      {
+        "texto": "PRAZO PARA RECURSO ORDINÁRIO: 8 dias",
+        "dica": "Contra sentença. Prazo peremptório"
+      },
+      {
+        "texto": "PRAZO PARA RECURSO DE REVISTA: 15 dias",
+        "dica": "Contra acórdão. Contado da intimação"
+      }
+    ],
+    "dpt_competencia_trabalho": [
+      {
+        "texto": "COMPETÊNCIA RATIONE MATERIAE: por matéria (sempre trabalhista)",
+        "dica": "Juizado ou Vara do Trabalho (conforme valor/complexidade)"
+      },
+      {
+        "texto": "COMPETÊNCIA RATIONE PERSONAE: por pessoa (empregado/empregador)",
+        "dica": "Vara do Trabalho de domicílio do empregado (Art. 13, CLT)"
+      },
+      {
+        "texto": "JUIZADO DE PEQUENAS CAUSAS: até R$ 20 mil (valor reduzido)",
+        "dica": "Competência cível/trabalhista. Regras procedimentais diferentes"
+      },
+      {
+        "texto": "VARA DO TRABALHO: competência normal (acima de R$ 20 mil)",
+        "dica": "Procedimento comum (mais formalizado)"
+      },
+      {
+        "texto": "TRIBUNAL REGIONAL DO TRABALHO: 2ª instância",
+        "dica": "Apela da sentença (recurso ordinário em 8 dias)"
+      }
+    ],
+    "dpv_segurado": [
+      {
+        "texto": "SEGURADO OBRIGATÓRIO: empregado, autônomo, etc (filiação compulsória)",
+        "dica": "Art. 11, Lei 8.213/1991. Contribuição obrigatória"
+      },
+      {
+        "texto": "SEGURADO FACULTATIVO: quem pode contribuir (optativamente)",
+        "dica": "Ex: dona de casa, estudante. Contribuem para ter direitos"
+      },
+      {
+        "texto": "CONTRIBUINTE: quem paga contribuição (gênero)",
+        "dica": "Empregado, autônomo, contribuinte individual = contribuintes"
+      },
+      {
+        "texto": "FILIADO: inscrito no INSS (relação com fundo)",
+        "dica": "Contribuinte é filiado. Filiação autoriza contribuições"
+      },
+      {
+        "texto": "BENEFICIÁRIO: quem recebe benefício (viúva, filho)",
+        "dica": "Dependente de segurado falecido ou incapacitado"
+      }
+    ],
+    "dpv_beneficios": [
+      {
+        "texto": "BENEFÍCIO TEMPORÁRIO: por período limitado (auxílio-doença, maternidade)",
+        "dica": "Cessação automática (cura, volta trabalho, fim período)"
+      },
+      {
+        "texto": "BENEFÍCIO PERMANENTE: por período indeterminado (aposentadoria, pensão)",
+        "dica": "Continua enquanto requisitos mantidos (ex: vida do pensionista)"
+      },
+      {
+        "texto": "BENEFÍCIO VITALÍCIO: dura até morte do beneficiário",
+        "dica": "Aposentadoria, pensão. Gera direito sucessório"
+      },
+      {
+        "texto": "RENDA MENSAL INICIAL: valor inicial do benefício",
+        "dica": "Calcula-se com base em contribuições/salários"
+      },
+      {
+        "texto": "COMPLEMENTAÇÃO: aumento de benefício (por lei posterior)",
+        "dica": "Melhor valor por alteração legislativa"
+      }
+    ],
+    "dpv_aposentadoria": [
+      {
+        "texto": "APOSENTADORIA POR IDADE: idade mínima (62 mulher, 65 homem) + tempo contribuição",
+        "dica": "Requisitos: 15 anos de contribuição + idade. EC 103/2019"
+      },
+      {
+        "texto": "APOSENTADORIA POR TEMPO DE CONTRIBUIÇÃO: só tempo contribuído",
+        "dica": "Homem: 35 anos. Mulher: 30 anos. Reduções para rural/insalubre"
+      },
+      {
+        "texto": "APOSENTADORIA POR INVALIDEZ: incapacidade permanente para trabalho",
+        "dica": "Necessário: carência (12 contribuições) + laudo médico (perícia)"
+      },
+      {
+        "texto": "CARÊNCIA: número mínimo de contribuições antes de pedir benefício",
+        "dica": "Varia por benefício. Aposentadoria: 15+ anos. Auxílio-doença: 12 contribuições"
+      },
+      {
+        "texto": "PERÍODO DE FILIAÇÃO: tempo como segurado",
+        "dica": "Diferente de carência. Contagem de tempo para direitos"
+      }
+    ],
+    "dpv_prazos_prev": [
+      {
+        "texto": "CARÊNCIA: 12 meses de contribuição (geral)",
+        "dica": "Aposentadoria exige 15 anos (não confundir com carência de 12 meses)"
+      },
+      {
+        "texto": "PRESCRIÇÃO: 10 anos (cobrança de benefício)",
+        "dica": "Direito de receber prestações vencidas até 10 anos atrás"
+      },
+      {
+        "texto": "CADUCIDADE: 5 anos (benefício não-reclamado)",
+        "dica": "Se não reclama em 5 anos, perde direito"
+      },
+      {
+        "texto": "PRAZO PARA RECURSO ADMINISTRATIVO: 30 dias",
+        "dica": "Contestação de negativa de benefício ao INSS"
+      },
+      {
+        "texto": "PRAZO PARA AÇÃO JUDICIAL: 10 anos (prescrição)",
+        "dica": "Contra INSS sobre benefício (maior prazo)"
+      }
+    ],
+    "dam_licenca_ambiental": [
+      {
+        "texto": "LICENÇA PRÉVIA: fase inicial (verifica viabilidade ambiental)",
+        "dica": "Antes de projeto. Autoriza localização e concepção"
+      },
+      {
+        "texto": "LICENÇA DE INSTALAÇÃO: fase de construção/preparação",
+        "dica": "Após prévia. Autoriza construir dentro especificações"
+      },
+      {
+        "texto": "LICENÇA DE OPERAÇÃO: fase de funcionamento",
+        "dica": "Após instalação. Autoriza operar. Válida por 4-10 anos (renovável)"
+      },
+      {
+        "texto": "SEQUÊNCIA OBRIGATÓRIA: Prévia → Instalação → Operação",
+        "dica": "Toda atividade polluidora precisa passar pelas 3"
+      },
+      {
+        "texto": "RENOVAÇÃO: licença de operação renovável (Art. 18, Res. 237/97)",
+        "dica": "Prazo de 4-10 anos (conforme órgão ambiental). Renovável indefinidamente"
+      }
+    ],
+    "dam_impacto_dano": [
+      {
+        "texto": "IMPACTO AMBIENTAL: alteração (positiva/negativa) do ambiente por atividade",
+        "dica": "Avaliação prévia (EIA). Nem todo impacto é dano"
+      },
+      {
+        "texto": "DANO AMBIENTAL: alteração ADVERSA do ambiente (causa prejuízo)",
+        "dica": "Redução de qualidade, perda biodiversidade. Gera reparação"
+      },
+      {
+        "texto": "IMPACTO vs DANO: qual gera obrigação de reparar?",
+        "dica": "Dano. Impacto pode ser legítimo (se mitigado). Dano sempre exige reparo"
+      },
+      {
+        "texto": "ESTUDO DE IMPACTO AMBIENTAL (EIA): documento prévio",
+        "dica": "Obrigatório para empreendimentos potencialmente poluidores"
+      },
+      {
+        "texto": "RIMA: Relatório de Impacto ao Meio Ambiente (síntese EIA)",
+        "dica": "Versão pública/acessível do EIA para consulta população"
+      }
+    ],
+    "dam_responsabilidade": [
+      {
+        "texto": "RESPONSABILIDADE CIVIL: reparação de dano (indenização)",
+        "dica": "Vítima processa causador. Obrigação de reparar"
+      },
+      {
+        "texto": "RESPONSABILIDADE PENAL: punição do crime ambiental",
+        "dica": "Estado processa (MP). Pena privativa de liberdade"
+      },
+      {
+        "texto": "RESPONSABILIDADE ADMINISTRATIVA: sanção administrativo-ambiental",
+        "dica": "Multa, interdição, suspensão. Órgão ambiental aplica"
+      },
+      {
+        "texto": "SOLIDARIEDADE EM DA: todos os causadores do dano respondem",
+        "dica": "Vítima pode processar qualquer um deles integralmente"
+      },
+      {
+        "texto": "RESPONSABILIDADE OBJETIVA: sem culpa (basta nexo causal)",
+        "dica": "Lei 6.938/1981. Quem danifica ambiente paga (não precisa provar culpa)"
+      }
+    ],
+    "dam_principios": [
+      {
+        "texto": "PRINCÍPIO DO POLUIDOR-PAGADOR: causador da poluição paga",
+        "dica": "Internaliza custos. Incentiva cuidado"
+      },
+      {
+        "texto": "PRINCÍPIO DA PRECAUÇÃO: quando há incerteza, protege ambiente",
+        "dica": "Melhor prevenir (sem certeza científica) que arrepender"
+      },
+      {
+        "texto": "PRINCÍPIO DA PREVENÇÃO: evitar degradação conhecida",
+        "dica": "Diferente de precaução. Conhecemos o risco (ex: EIA)"
+      },
+      {
+        "texto": "POLUIDOR-PAGADOR vs PRECAUÇÃO: qual se aplica em incerteza?",
+        "dica": "Precaução (incerteza científica). Poluidor-pagador (dano confirmado)"
+      },
+      {
+        "texto": "RESPONSABILIDADE COMPARTILHADA: consumidor + produtor + Estado",
+        "dica": "Gestão de resíduos envolvem todos (Lei 12.305/2010)"
+      }
+    ]
+  },
+  "perguntas": [
+    {
+      "id": 1,
+      "enunciado": "Qual é a diferença crítica entre Isenção e Imunidade tributária?",
+      "opcoes": [
+        "Ambas dispensam pagamento, sem diferença prática",
+        "Isenção pode ser revogada por lei; Imunidade é constitucional e imutável",
+        "Imunidade é tributária; isenção é civil",
+        "Isenção aplica-se a PJ; imunidade a PF"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Isenção: dispensa legal (pode ser revogada). Imunidade: proteção constitucional (quase impossível mudar). Questão clássica de inversão."
+    },
+    {
+      "id": 2,
+      "enunciado": "Em qual situação o Poder Constituinte Originário é invocado?",
+      "opcoes": [
+        "Para reformar constituição existente",
+        "Para ampliar direitos já previstos",
+        "Para criar constituição completamente nova (revolução/independência)",
+        "Para fazer emendas constitucionais"
+      ],
+      "correta": 2,
+      "dificuldade": 2,
+      "explicacao": "Originário = ilimitado, irrestrito, cria do zero. Quando há ruptura total."
+    },
+    {
+      "id": 3,
+      "enunciado": "Servidor público causa dano ao administrado. Quem responde civilmente?",
+      "opcoes": [
+        "Apenas o servidor (responsabilidade pessoal)",
+        "Apenas o Estado (responsabilidade objetiva)",
+        "Estado responde; depois pode cobrar do servidor",
+        "Ambos solidariamente"
+      ],
+      "correta": 2,
+      "dificuldade": 2,
+      "explicacao": "Art. 37, §6º CF. Estado responde OBJETIVAMENTE (não precisa culpa). Servidor responde subjetivamente (só depois, com comprovação culpa)."
+    },
+    {
+      "id": 4,
+      "enunciado": "O que caracteriza RELAÇÃO DE EMPREGO em Direito do Trabalho?",
+      "opcoes": [
+        "Apenas prestação de serviço remunerado",
+        "Subordinação jurídica + pessoalidade + continuidade + remuneração",
+        "Apenas contrato escrito",
+        "Apenas o vínculo com empresa"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Elementos cumulativos. Subordinação jurídica é o elemento decisivo (diferencia de autônomo)."
+    },
+    {
+      "id": 5,
+      "enunciado": "Prescrição e Decadência em Direito Civil (Arts. 189 e 208) diferem em quê?",
+      "opcoes": [
+        "São sinônimos (mesma coisa)",
+        "Prescrição extingue direito de ação; decadência extingue direito material",
+        "Prescrição é civil; decadência é comercial",
+        "Decadência é mais rápida sempre"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Prescrição: ação prescreve (direito permanece, não pode processar). Decadência: direito material desaparece (nada mais pode fazer)."
+    },
+    {
+      "id": 6,
+      "enunciado": "Qual ato administrativo é VINCULADO (sem discricionariedade)?",
+      "opcoes": [
+        "Concessão de permissão para táxi",
+        "Aposentadoria quando preenchidos todos requisitos",
+        "Demissão por justa causa",
+        "Ordem de demolição"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Ato vinculado: lei determina tudo. Quando condições preenchidas = obrigação de conceder (sem margem de liberdade)."
+    },
+    {
+      "id": 7,
+      "enunciado": "Em competência processual civil, qual afirmativa está correta?",
+      "opcoes": [
+        "Competência relativa é insanável (não pode ser alterada)",
+        "Competência absoluta não pode ser prorrogada; relativa pode",
+        "Ambas são imutáveis",
+        "Ambas podem ser alteradas pelas partes"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Competência absoluta: imutável (ex: Justiça Federal). Relativa: prorrogável (réu que comparece consente). Confusão clássica."
+    },
+    {
+      "id": 8,
+      "enunciado": "MARCA e PATENTE diferem principalmente em quê?",
+      "opcoes": [
+        "Marca protege invenção; patente protege marca",
+        "Marca é renovável indefinidamente; patente é um prazo único (20 anos não-renovável)",
+        "Ambas têm prazo de 10 anos",
+        "Marca é mais importante que patente"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Marca: identifica (renovável a cada 10 anos). Patente: invenção (20 anos, encerra, não renova). Ordem de magnitude diferente."
+    },
+    {
+      "id": 9,
+      "enunciado": "EMPENHO na execução orçamentária significa:",
+      "opcoes": [
+        "Transferência de recursos ao fornecedor",
+        "Confirmação que serviço foi feito",
+        "Ato que COMPROMETE crédito orçamentário (1ª fase)",
+        "Pagamento final ao credor"
+      ],
+      "correta": 2,
+      "dificuldade": 2,
+      "explicacao": "Empenho: ato interno (reduz disponibilidade). Depois vem Liquidação (confirmação) e Pagamento (transferência)."
+    },
+    {
+      "id": 10,
+      "enunciado": "Qual é a diferença entre LICENÇA, AUTORIZAÇÃO e PERMISSÃO administrativas?",
+      "opcoes": [
+        "São sinônimos",
+        "Licença é direito vinculado; autorização é ato discricionário; permissão é delegação",
+        "Autorização é para negócio; permissão é para pessoa",
+        "Permissão é mais fácil que autorização"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Licença: direito público (vinculado). Autorização: ato discricionário (administrador escolhe). Permissão: revogável unilateralmente."
+    },
+    {
+      "id": 11,
+      "enunciado": "Em Direito Tributário, qual é o prazo para LANÇAMENTO (direito de lançar)?",
+      "opcoes": [
+        "5 anos (geral)",
+        "10 anos para maioria; 5 anos para IR (Lei 9.250/1995)",
+        "20 anos",
+        "Sem prazo (direito perpétuo)"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Decadência de lançamento: 10 anos (regra). IR: 5 anos. Após isso, fisco perde direito de lançar. Muito cobrado em provas."
+    },
+    {
+      "id": 12,
+      "enunciado": "SUBORDINAÇÃO JURÍDICA em direito do trabalho é:",
+      "opcoes": [
+        "Apenas situação econômica",
+        "Poder do empregador de dar ordens (empregado obedece)",
+        "Dependência financeira",
+        "Falta de expertise do trabalhador"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Subordinação jurídica: elemento decisivo. Diferencia empregado de autônomo. Teletrabalho NÃO elimina subordinação."
+    },
+    {
+      "id": 13,
+      "enunciado": "Qual não é CLÁUSULA PÉTREA de acordo com Art. 60, §4º?",
+      "opcoes": [
+        "Forma federativa de Estado",
+        "Voto direto, secreto, universal e periódico",
+        "Sistema presidencialista",
+        "Separação dos Poderes"
+      ],
+      "correta": 2,
+      "dificuldade": 2,
+      "explicacao": "Presidencialismo pode ser alterado por EC (em tese). Forma federativa não. Confusão estratégica em provas."
+    },
+    {
+      "id": 14,
+      "enunciado": "Em litisconsórcio, qual é NECESSÁRIO (obrigatório)?",
+      "opcoes": [
+        "Litisconsórcio entre credores do mesmo devedor",
+        "Litisconsórcio sobre bem indivisível (ambos cônjuges em ação sobre imóvel do casal)",
+        "Litisconsórcio opcional entre partes",
+        "Qualquer litisconsórcio voluntário"
+      ],
+      "correta": 1,
+      "dificuldade": 3,
+      "explicacao": "Necessário: exigido por lei. Falta de co-litisconsorte obrigatório = nulidade insanável. Frequente inversão em provas."
+    },
+    {
+      "id": 15,
+      "enunciado": "IMPACTO AMBIENTAL diferencia-se de DANO AMBIENTAL em quê?",
+      "opcoes": [
+        "Impacto é mais grave",
+        "Dano é alteração prejudicial; impacto é qualquer alteração (pode ser legítima)",
+        "São exatamente iguais",
+        "Dano é criminal; impacto é administrativo"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Impacto: alteração (EIA avalia). Dano: lesão ao ambiente (gera reparação). Nem todo impacto autorizado é dano."
+    },
+    {
+      "id": 16,
+      "enunciado": "Qual é o prazo MÁXIMO para reclamar direitos trabalhistas?",
+      "opcoes": [
+        "2 anos após término do contrato (prescrição)",
+        "5 anos de forma geral (desde dentro de 2 anos da extinção)",
+        "10 anos (sem limite)",
+        "1 ano apenas"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Prescrição: 5 anos (geral). Mas caducidade: 2 anos após extinção. Após 2 anos = perde-se direito completamente. Muito confuso."
+    },
+    {
+      "id": 17,
+      "enunciado": "APELAÇÃO diferencia-se de AGRAVO DE INSTRUMENTO em quê?",
+      "opcoes": [
+        "Apelação é contra sentença; agravo é contra decisão interlocutória",
+        "Apelação é mais importante",
+        "Ambos têm prazo de 15 dias",
+        "Apelação não encerra 1ª instância; agravo encerra"
+      ],
+      "correta": 0,
+      "dificuldade": 2,
+      "explicacao": "Apelação: sentença (fim 1ª fase). Agravo: decisão durante processo (não encerra). Recursos completamente diferentes."
+    },
+    {
+      "id": 18,
+      "enunciado": "POSSE JUSTA vs POSSE INJUSTA: qual permite usucapião?",
+      "opcoes": [
+        "Ambas permitem (não há diferença)",
+        "Apenas posse justa (sem vícios: violência, clandestinidade, precariedade)",
+        "Apenas posse injusta (é mais reconhecida)",
+        "Nenhuma delas permite"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Posse justa: requisito essencial para usucapião. Injusta: tem vício (perde direito). Memória cumulativa obrigatória."
+    },
+    {
+      "id": 19,
+      "enunciado": "Em qual situação há DISPENSA de licitação em contatos públicos?",
+      "opcoes": [
+        "Nunca, licitação é sempre obrigatória",
+        "Quando valor é muito pequeno OU situação impossível fazer licitação (Art. 74, Lei 14.133)",
+        "Apenas em emergências",
+        "Quando administrador quer (discrição total)"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Dispensa: lei lista hipóteses (valor pequeno, urgência, coisa única). Não é arbitrário. Memorizar Art. 74 Lei 14.133."
+    },
+    {
+      "id": 20,
+      "enunciado": "Qual é a diferença entre INCAPACIDADE ABSOLUTA e INCAPACIDADE RELATIVA?",
+      "opcoes": [
+        "Ambas são iguais em efeitos",
+        "Absoluta: sem capacidade nenhuma (curador); Relativa: pode exercitar com assistência (curador)",
+        "Relativa é mais grave",
+        "Absolutamente incapaz pode assinar contrato; relativamente incapaz não"
+      ],
+      "correta": 1,
+      "dificuldade": 2,
+      "explicacao": "Absoluta: nulidade (incapaz + curador = nulo). Relativa: anulabilidade (incapaz + assistente = pode valer). Regime jurídico diferente."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constituição Quiz - Memorização Ativa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container" id="app">
+
+    <!-- ========== TELA DE CARREGAMENTO ========== -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="spinner"></div>
+      <p>Carregando dados da Constituição...</p>
+    </div>
+
+    <!-- ========== TELA INICIAL ========== -->
+    <div id="tela-inicial" class="tela-inicial" style="display:none;">
+      <div class="icone-constituicao">📜⚖️</div>
+      <h1 class="titulo-principal">Constituição Quiz</h1>
+      <p class="subtitulo">
+        Teste seus conhecimentos sobre a Constituição Federal de 1988!
+        Classifique itens, responda perguntas e desafie sua memória sob pressão.
+      </p>
+      <div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center;">
+        <button class="btn btn-primary" onclick="Game.iniciar()">🎮 Jogar</button>
+        <button class="btn btn-secondary" onclick="UI.mostrarInstrucoes()">📖 Como Jogar</button>
+      </div>
+      <div style="margin-top: 20px; color: #64748b; font-size: 0.85rem;">
+        🇧🇷 Art. 1º ao Art. 60 da CF/88
+      </div>
+    </div>
+
+    <!-- ========== MODAL DE INSTRUÇÕES ========== -->
+    <div id="instructions-modal" class="instructions-modal" style="display:none;">
+      <div class="instructions-content fade-in">
+        <h2>📖 Como Jogar</h2>
+        <ul>
+          <li><span class="emoji">🏷️</span><strong>Modo Classificação:</strong> Arraste os itens para as caixas corretas. Cada caixa representa uma categoria constitucional.</li>
+          <li><span class="emoji">❓</span><strong>Modo Pergunta:</strong> Responda questões de múltipla escolha sobre a Constituição.</li>
+          <li><span class="emoji">⏱️</span><strong>Tempo:</strong> Cada fase tem tempo limitado. Responda rápido para ganhar mais pontos!</li>
+          <li><span class="emoji">📈</span><strong>Níveis:</strong> A cada nível a dificuldade aumenta — mais itens, menos tempo.</li>
+          <li><span class="emoji">✅</span><strong>Pontuação:</strong> Acertos rápidos valem mais. Erros reduzem pontos.</li>
+          <li><span class="emoji">🏆</span><strong>Progressão:</strong> Atinga a pontuação mínima para avançar de nível.</li>
+        </ul>
+        <div class="game-controls">
+          <button class="btn btn-primary" onclick="UI.fecharInstrucoes()">Entendi!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== TELA DE TRANSIÇÃO DE NÍVEL ========== -->
+    <div id="tela-transicao" class="transition-screen" style="display:none;">
+      <div class="level-number" id="transicao-nivel">1</div>
+      <h2 id="transicao-titulo">Nível 1</h2>
+      <p class="level-info" id="transicao-info">Fundamentos e Objetivos Fundamentais</p>
+      <div class="level-stats">
+        <div class="stat-card">
+          <div class="stat-value" style="color:#f472b6;" id="transicao-tempo">60s</div>
+          <div class="stat-label">Tempo</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#60a5fa;" id="transicao-itens">5</div>
+          <div class="stat-label">Itens</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#a78bfa;" id="transicao-min">200</div>
+          <div class="stat-label">Mínimo p/ passar</div>
+        </div>
+      </div>
+      <button class="btn btn-primary" onclick="Game.comecarNivel()">🚀 Começar</button>
+    </div>
+
+    <!-- ========== TELA DE JOGO ========== -->
+    <div id="tela-jogo" style="display:none;">
+      <!-- HUD -->
+      <div class="hud" id="hud">
+        <div class="hud-item hud-level">
+          <span class="hud-label">Nível</span>
+          <span class="hud-value" id="hud-nivel">1</span>
+        </div>
+        <div class="hud-item hud-score">
+          <span class="hud-label">Pontos</span>
+          <span class="hud-value" id="hud-score">0</span>
+        </div>
+        <div class="hud-item hud-timer" id="hud-timer-container">
+          <span class="hud-label">Tempo</span>
+          <span class="hud-value" id="hud-timer">60</span>
+        </div>
+      </div>
+      <!-- Barra de tempo visual -->
+      <div class="timer-bar-container">
+        <div class="timer-bar" id="timer-bar"></div>
+      </div>
+
+      <!-- Área de classificação -->
+      <div id="modo-classificacao" class="game-area" style="display:none;">
+        <div class="classification-header">
+          <h2>🏷️ Classifique os itens</h2>
+          <p>Arraste cada item para a categoria correta</p>
+        </div>
+        <div class="items-pool" id="items-pool"></div>
+        <div class="drop-zones" id="drop-zones"></div>
+        <div class="game-controls">
+          <button class="btn btn-success" id="btn-verificar" onclick="Game.verificarClassificacao()">✅ Verificar</button>
+          <button class="btn btn-secondary" onclick="Game.pularFase()">⏭️ Pular (-50 pts)</button>
+        </div>
+      </div>
+
+      <!-- Área de perguntas -->
+      <div id="modo-pergunta" class="game-area" style="display:none;">
+        <div class="question-container" id="question-container">
+          <div class="question-number" id="question-number">Pergunta 1 de 3</div>
+          <div class="question-text" id="question-text"></div>
+          <div class="options-list" id="options-list"></div>
+          <div class="explanation" id="explanation" style="display:none;">
+            <div class="explanation-label">📚 Explicação</div>
+            <div class="explanation-text" id="explanation-text"></div>
+          </div>
+        </div>
+        <div class="game-controls" id="question-controls" style="display:none;">
+          <button class="btn btn-primary" onclick="Game.proximaPergunta()">Próxima ➡️</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== TELA DE NÍVEL COMPLETO ========== -->
+    <div id="tela-nivel-completo" class="level-complete" style="display:none;">
+      <h2 id="nivel-completo-titulo">🎉 Nível Completo!</h2>
+      <div class="score-display" id="nivel-completo-score">350</div>
+      <div class="level-stats">
+        <div class="stat-card">
+          <div class="stat-value" style="color:#10b981;" id="nivel-acertos">8</div>
+          <div class="stat-label">Acertos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#ef4444;" id="nivel-erros">2</div>
+          <div class="stat-label">Erros</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#f59e0b;" id="nivel-tempo-restante">15s</div>
+          <div class="stat-label">Tempo Restante</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#a78bfa;" id="nivel-bonus">+50</div>
+          <div class="stat-label">Bônus de Tempo</div>
+        </div>
+      </div>
+      <p id="nivel-mensagem" style="color:#94a3b8; margin-bottom:20px;"></p>
+      <div class="game-controls" id="nivel-controles"></div>
+    </div>
+
+    <!-- ========== TELA DE GAME OVER ========== -->
+    <div id="tela-game-over" class="game-over" style="display:none;">
+      <div class="icone-constituicao">🏆</div>
+      <h1 id="game-over-titulo">Fim de Jogo!</h1>
+      <div class="final-score" id="game-over-score">0</div>
+      <p style="color:#94a3b8; font-size:1.1rem;" id="game-over-subtitulo">Desempenho Final</p>
+
+      <div class="performance-bar">
+        <div class="performance-fill" id="performance-fill"></div>
+      </div>
+      <p id="performance-texto" style="color:#cbd5e1; margin-top:8px;"></p>
+
+      <div class="level-stats">
+        <div class="stat-card">
+          <div class="stat-value" style="color:#a78bfa;" id="go-nivel">3</div>
+          <div class="stat-label">Nível Alcançado</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#10b981;" id="go-acertos">15</div>
+          <div class="stat-label">Total Acertos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#ef4444;" id="go-erros">5</div>
+          <div class="stat-label">Total Erros</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" style="color:#60a5fa;" id="go-precisao">75%</div>
+          <div class="stat-label">Precisão</div>
+        </div>
+      </div>
+
+      <div class="game-controls">
+        <button class="btn btn-primary" onclick="Game.reiniciar()">🔄 Jogar Novamente</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
